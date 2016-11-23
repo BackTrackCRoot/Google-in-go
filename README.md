@@ -3,6 +3,23 @@ A simple google search agent server
 
 #### How to Use ?
 
+* On Linux or Windows
+
+  You should download go runtime.
+
+  then
+
+  ``` shell
+  git clone https://github.com/BackTrackCRoot/Google-in-go
+  cd Google-in-go
+  go build google.go -o google # Windows use -o google.exe
+  ./google & # or google.exe
+  ```
+
+  ​
+
+* On Heroku platform
+
 ``` shell
 git clone https://github.com/BackTrackCRoot/Google-in-go
 cd Google-in-go
