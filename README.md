@@ -1,44 +1,40 @@
 # Google-in-go
-A simple google search agent server
 
-#### How to Use ?
 
-* On Linux or Windows
 
-  You should download go runtime.
+This tools is the Google search agent only.
 
-  then
+And the building is depend on [xmake](https://github.com/xmake-io/xmake) . when your platform is Linux/Windows(x64), it can be automatically packed by upx.
 
-  ``` shell
-  git clone https://github.com/BackTrackCRoot/Google-in-go
-  cd Google-in-go
-  go build google.go -o google # Windows use -o google.exe
-  ./google & # or google.exe
-  ```
-
-  ​
-
-* On Heroku platform
+### Build
 
 ``` shell
-git clone https://github.com/BackTrackCRoot/Google-in-go
-cd Google-in-go
-heroku create
-git add -A
-git commit -m "init"
-git push heroku master
-heroku open
+xmake
 ```
 
-#### Update
 
-1. Fix User-Agent
 
-2. Support search in Chinese
+### How to use
 
-3. Remove ad etc.
+``` shell
+Usage of Google-in-go:
+  -a string
+        Listen address. (default "0.0.0.0")
+  -p string
+        Listen port. (default "8080")
+```
 
-4. Optimization request header
+
+
+The old version is support on `Heroku platform`
+
+
+
+#### update 20210125
+
+* fix pc/mobile blocked by setting.
+
+
 
 #### Problem
 
