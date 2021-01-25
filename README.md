@@ -4,7 +4,7 @@
 
 This tools is the Google search agent only.
 
-And the building is depend on [xmake](https://github.com/xmake-io/xmake) . when your platform is Linux/Windows(x64), it can be automatically packed by upx.
+And the build utility is depend on [xmake](https://github.com/xmake-io/xmake) . when your platform is Linux/Windows(x64), it can be automatically packed by upx.
 
 ### Build
 
